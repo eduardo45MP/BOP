@@ -1,0 +1,50 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light gray background */
+    color: #333; /* Dark gray text color */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333; /* Charcoal Gray - Header background */
+    color: #fff;
+}
+
+h1 {
+    margin: 0;
+}
+
+section#intro {
+    margin: 20px;
+    background-color: #A9A9A9; /* Warm Gray - Intro section background */
+    color: #333; /* Dark gray text color for the intro section */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Carousel Section */
+section#projects {
+    background-color: #483C32; /* Taupe - Carousel section background */
+    color: #fff; /* White text color for the carousel section */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#projectCarousel .carousel-item {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333; /* Charcoal Gray - Footer background */
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
